@@ -21,6 +21,7 @@ module SessionsHelper
         log_in user
         @current_user = user
       end
+
     end
   end
   # Returns true if the given user is the current user.

@@ -5,6 +5,7 @@ ruby '3.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.6'
+gem 'net-smtp', '~> 0.3.1'
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.5'
 # Use Puma as the app server
@@ -26,6 +27,7 @@ gem 'bcrypt', '~> 3.1.13'
 gem 'faker',   '~>2.17'
 gem 'will_paginate', '~> 3.3', '>= 3.3.1'
 gem 'bootstrap-will_paginate', '~> 1.0'
+gem 'figaro'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
