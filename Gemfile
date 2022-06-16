@@ -5,6 +5,10 @@ ruby '3.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.6'
+gem 'active_storage_validations', '0.8.2'
+gem 'aws-sdk-s3', '~> 1.114', require: false
+gem 'image_processing', '~> 1.12', '>= 1.12.2'
+gem 'mini_magick', '~> 4.11'
 gem 'net-smtp', '~> 0.3.1'
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.5'
